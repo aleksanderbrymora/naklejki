@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { details, partNames } from '../store';
+
 	let partName = '';
 
 	const handleSubmit = () => {
@@ -24,7 +25,7 @@
 	};
 </script>
 
-<div class="flex flex-col gap-5 print:hidden">
+<div class="flex flex-col gap-5 ">
 	<fieldset class="fieldset-input">
 		<label for="clpl">CLPL: </label>
 		<input type="text" id="clpl" bind:value={$details.clpl} required />
