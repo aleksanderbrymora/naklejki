@@ -15,7 +15,7 @@
 <div
 	on:click={getImageOfLabel}
 	id="label-{index}"
-	class="grid grid-cols-2 w-full border-2 border-black py-5 px-8 text-2xl gap-5 bg-white hover:bg-zinc-100 cursor-pointer transition-colors"
+	class="grid grid-cols-2 w-full border-2 border-black py-5 px-8 text-3xl gap-5 bg-zinc-50 hover:bg-white cursor-pointer transition-colors aspect-[3/2]"
 >
 	<img src="/logo.svg" alt="" />
 	<p class="col-span-2">
